@@ -7,8 +7,7 @@ def hello_t(array)
   end
 end
 
-def hello_t(names)
-  names.collect do |name|
+def hello_t(names) do |name|
     puts name
   end
 end
