@@ -10,6 +10,7 @@ end
 def hello_t(names)
   names.each do |name|
     puts name
+    yield ("Ali, Jasmine, Persephone").upcase
   end
 end
  
