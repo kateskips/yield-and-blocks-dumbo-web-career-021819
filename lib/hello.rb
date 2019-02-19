@@ -4,6 +4,8 @@ def hello_t(array)
         puts "Hi, #{name}"
         yield array
     end
+    yield
+        puts "Hey! No block was given!"
   end
 end
 
