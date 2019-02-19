@@ -6,6 +6,7 @@ def hello_t(array)
     end
   end
 end
+yield ()
 
 def hello_t(names)
   names.each do |name|
