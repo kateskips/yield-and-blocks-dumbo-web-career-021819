@@ -3,10 +3,12 @@ def hello_t(array)
     if name.start_with?("T")
         puts "Hi, #{name}"
         yield array
+        yield
+        puts 
     end
   end
 end
-yield ()
+
 
 def hello_t(names)
   names.each do |name|
